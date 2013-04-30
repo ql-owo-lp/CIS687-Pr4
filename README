@@ -1,0 +1,33 @@
+CIS 687 Project 4 - Sp13
+		by Kevin Wang
+		April 27, 2013
+		
+By default the program will be running at ./Debug directory, thus you can find all executive files there
+		
+Directory structure =============================
+Directory structure of both server-side and client-side are explained as following.
+
+Server Disk ----------------------------
+- ServerRepo	# all check-in files will be placed here
+	- ns1.packageA.v1.metadata.xml		# package metadata files are named as "namespace"."package"."version".metadata.xml
+	- ns2.packageB.v2.metadata.xml
+	- nsX.packageX.vN.metadata.xml
+	- ns1	# directory of namespace 1
+		- packageA	#directory of package A
+			- 1	# version number
+				- packageA.h
+				- packageA.cpp
+	- ns2
+		- ...	# same hierachy as above
+
+		
+Client-side has the similar directory structure as server-side.
+		
+Client Disk -----------------------------
+- ClientRepo	# all extracted files will be placed here
+	- ns1.packageA.v1.metadata.xml
+	- ns1
+		- packageA
+			- 1
+				- packageA.h
+				- packageB.cpp

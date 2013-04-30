@@ -1,0 +1,6 @@
+<? xml version="1.0" ?>
+<package>
+	<metadata name="PackageA" version="2" owner="kevin" checkin-open="0"/>
+	<dependency name="PackageB" version="1" />
+	<dependency name="PackageB" version="2" />
+</package>

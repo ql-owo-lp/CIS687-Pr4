@@ -1,0 +1,5 @@
+<? xml version="1.0" ?>
+<users>
+	<user name="kevin" passwd="123456" />
+	<user name="admin" passwd="nimda" />
+</users>
